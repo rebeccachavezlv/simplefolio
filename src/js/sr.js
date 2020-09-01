@@ -34,6 +34,15 @@ export default function() {
       }, defaultProps)
   );
 
+  ScrollReveal().reveal('.social-links', 
+  assignProps(
+    {
+      delay: 1000, 
+      origin: window.innerWidth > 768 ? 'left' : 'bottom'
+    }, defaultProps)
+);
+
+
   /* About Section */
   ScrollReveal().reveal('.about-wrapper__image', 
     assignProps(
