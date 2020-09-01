@@ -36,25 +36,13 @@
   }
 }
 
-.social-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 
-  a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: $white-color;
-    font-size: 3rem;
-    width: 5rem;
-    height: 5rem;
-    margin: $default-font-size $default-font-size;
-    transition: all 0.2s ease-in;
-
-    &:hover {
-      transform: translateY(-2px);
-    }
+#contact {
+  a, a:link {
+    color: white;
+  }
+  a:hover {
+    color: $dark-blue-text;
   }
 }
 
@@ -65,5 +53,6 @@
 
   &:hover {
     transform: translateY(-2px);
+    color: $secondary-color;
   }
 }

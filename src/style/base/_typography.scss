@@ -51,3 +51,11 @@ a:hover {
     transform: translateX(2px);
   }
 }
+
+a:link{
+  color: white;
+}
+
+a:link:hover {
+  color: $dark-blue-text
+}
