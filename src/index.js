@@ -18,5 +18,14 @@ $('a[href^="#"]').on('click', function(event) {
   }
 });
 
+
+const html = document.getElementById("html");
+
+const unHide = () => {
+  console.log('running')
+  html.hidden = false
+}
+
 initSr();
 initTilt();
+html.onload = unHide()
